@@ -29,7 +29,7 @@ def fetch_and_extract_json():
             print(f"Found {len(json_data)} records in JSON")
             
             # Write to file with proper formatting
-            with open('outputs/output.json', 'w', encoding='utf-8') as f:
+            with open('output.json', 'w', encoding='utf-8') as f:
                 json.dump(json_data, f, indent=2, ensure_ascii=False)
             
             print("JSON data saved to 'output.json'")
