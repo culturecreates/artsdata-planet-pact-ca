@@ -25,6 +25,7 @@ jobs:
           path: output.json
 
   process-using-ontorefine:
+    needs: fetch-data
     runs-on: ubuntu-latest
     container:
       image: ontotext/refine:1.2.1
