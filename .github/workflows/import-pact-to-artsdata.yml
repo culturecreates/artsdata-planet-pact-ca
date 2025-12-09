@@ -98,5 +98,5 @@ jobs:
         uses: culturecreates/artsdata-pipeline-action@v3
         with:
           artifact: pact-organizations
-          publisher: "https://github.com/fjjulien#this"
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/outputs/pact-entities.ttl
