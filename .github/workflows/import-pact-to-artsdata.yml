@@ -58,7 +58,7 @@ jobs:
       - name: Transform to RDF
         run: |
           mkdir -p outputs
-          /opt/ontorefine/dist/bin/ontorefine-cli transform data.json \
+          /opt/ontorefine/dist/bin/ontorefine-cli transform output.json \
             -u http://localhost:7333 \
             --configurations ontorefine-config.json \
             -f json > outputs/pact-entities.ttl
