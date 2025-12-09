@@ -1,5 +1,23 @@
 #!/bin/bash
 
+# Fetch data using Python script
+echo "Fetching data from PACT API..."
+python3 data_fetcher.py
+
+# Check if Python script executed successfully
+if [ $? -ne 0 ]; then
+  echo "Error: Failed to fetch data from API"
+  exit 1
+fi
+
+# Check if output file was created
+if [ ! -f "output.json" ]; then
+  echo "Error: output.json not found in outputs directory"
+  exit 1
+fi
+
+echo "Data fetched successfully!"
+
 # Update the Config file
 config_file="ontorefine-config.json"
 
@@ -15,7 +33,7 @@ echo "Server started!"
 
 # Send a command to the running container
 echo "Running OntoRefine CLI using config.json..."
-sudo docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/sample.json \
+sudo docker exec onto_refine /opt/ontorefine/dist/bin/ontorefine-cli transform ../data/output.json \
   -u http://localhost:7333  \
   --no-clean \
   --configurations ../data/ontorefine-config.json  \

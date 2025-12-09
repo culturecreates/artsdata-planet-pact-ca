@@ -1,9 +1,29 @@
-name: Fetch pact entities
+name: Fetch PACT Entities
 
 on:
   workflow_dispatch:
 
 jobs:
+  fetch-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Fetch data using Python
+        run: python3 data_fetcher.py
+
+      - name: Upload JSON artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: pact-json
+          path: output.json
+
   process-using-ontorefine:
     runs-on: ubuntu-latest
     container:
@@ -12,35 +32,41 @@ jobs:
       ports:
         - 7333:7333
     steps:
-      - name: Install requirements
-        run: apk update && apk add curl && apk add util-linux && apk add jq
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Run ontorefine server
+      - name: Install requirements
+        run: apk update && apk add curl util-linux jq python3
+
+      - name: Run OntoRefine server
         run: /opt/ontorefine/dist/bin/ontorefine &
 
-      - name: Download project-configuration-file
-        run: | 
-          curl 'https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/ontorefine-config.json' >> config.json
-
-      - name: Fetch entities
+      - name: Wait for server
         run: |
-            curl https://www.pact.ca/api/membership/artsdata -o data.json
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:7333 && break || sleep 5
+          done
 
-      - name: Transform into RDF
+      - name: Download JSON artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: pact-json
+          path: .
+
+
+      - name: Transform to RDF
         run: |
-            mkdir -p outputs
-
-            /opt/ontorefine/dist/bin/ontorefine-cli \
-            transform data.json \
+          mkdir -p outputs
+          /opt/ontorefine/dist/bin/ontorefine-cli transform data.json \
             -u http://localhost:7333 \
-            --configurations config.json \
-            -f json >> outputs/events.ttl
+            --configurations ontorefine-config.json \
+            -f json > outputs/pact-entities.ttl
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-            name: ttl-file
-            path: outputs/
+          name: pact-ttl
+          path: outputs/
 
   commit-and-push:
     runs-on: ubuntu-latest
@@ -50,28 +76,27 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Download artifacts
-        id: download-step
         uses: actions/download-artifact@v4
         with:
-            name: ttl-file
-            path: outputs/
+          name: pact-ttl
+          path: outputs/
 
-      - name: Commit files to GitHub
+      - name: Commit and push
         run: |
-            git pull
-            git config --global user.email "actions@github.com"
-            git config --global user.name "GitHub Actions"
-            git add "outputs/"
-            git commit -m "Push Entities from Evenko"
-            git push
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git pull origin ${{ github.ref_name }}
+          git add outputs/
+          git diff --staged --quiet || git commit -m "Update PACT entities"
+          git push origin ${{ github.ref_name }}
 
   artsdata-push:
     runs-on: ubuntu-latest
     needs: commit-and-push
     steps:
-      - name: Action setup
+      - name: Push to Artsdata
         uses: culturecreates/artsdata-pipeline-action@v3
         with:
-          artifact: place-bell
+          artifact: pact-organizations
           publisher: "https://github.com/fjjulien#this"
-          downloadUrl: https://raw.githubusercontent.com/${{github.repository}}/${{github.ref}}/outputs/events.ttl
+          downloadUrl: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/outputs/pact-entities.ttl
