@@ -8,7 +8,7 @@
       "limit": -1,
       "trimStrings": false,
       "guessCellValueTypes": false,
-      "storeEmptyStrings": true,
+      "storeEmptyStrings": false,
       "includeFileSources": false,
       "includeArchiveFileName": false,
       "disableAutoPreview": false,
