@@ -1,6 +1,7 @@
 import urllib.request
 import json
 import re
+import uuid
 
 def fetch_and_extract_json():
     """
@@ -27,6 +28,10 @@ def fetch_and_extract_json():
             json_data = json.loads(json_string)
             
             print(f"Found {len(json_data)} records in JSON")
+
+            for record in json_data:
+                # add an id as UUID for each record
+                record['id'] = str(uuid.uuid4())
             
             # Write to file with proper formatting
             with open('output.json', 'w', encoding='utf-8') as f:

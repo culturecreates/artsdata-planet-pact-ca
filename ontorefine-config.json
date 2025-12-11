@@ -20,19 +20,6 @@
   ],
   "operations": [
     {
-      "op": "core/column-addition",
-      "engineConfig": {
-        "facets": [],
-        "mode": "row-based"
-      },
-      "baseColumnName": "_ - website",
-      "expression": "grel:value.replace(/^[a-zA-Z]+:\\/\\//, \"\").split(\"/\")[0].replace(/^www\\./, \"\")",
-      "onError": "set-to-blank",
-      "newColumnName": "_ - domainname",
-      "columnInsertIndex": 3,
-      "description": "Create column _ - domainname at index 3 based on column _ - website using expression grel:value.replace(/^[a-zA-Z]+:\\/\\//, \"\").split(\"/\")[0].replace(/^www\\./, \"\")"
-    },
-    {
       "op": "mapping-editor/save-rdf-mapping",
       "mapping": {
         "baseIRI": "http://example.com/base/",
@@ -47,7 +34,7 @@
             "subject": {
               "valueSource": {
                 "source": "column",
-                "columnName": "_ - domainname"
+                "columnName": "_ - id"
               },
               "transformation": {
                 "language": "prefix",
