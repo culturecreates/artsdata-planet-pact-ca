@@ -101,3 +101,4 @@ jobs:
           artifact: pact-organizations
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           downloadUrl: https://raw.githubusercontent.com/${{ github.repository }}/${{ github.ref_name }}/outputs/pact-entities.ttl
+          custom-databus-url: http://staging.api.artsdata.ca/databus/
