@@ -27,7 +27,8 @@
           "schema": "http://schema.org/",
           "organization": "http://pact.ca/org/",
           "wdt": "http://www.wikidata.org/prop/direct/",
-          "skos": "http://www.w3.org/2004/02/skos/core#"
+          "skos": "http://www.w3.org/2004/02/skos/core#",
+          "adr": "http://kg.artsdata.ca/resource/"
         },
         "subjectMappings": [
           {
@@ -243,8 +244,8 @@
                           "values": [
                             {
                               "valueSource": {
-                                "source": "constant",
-                                "constant": "legalform"
+                                "source": "column",
+                                "columnName": "_ - legalform"
                               },
                               "valueType": {
                                 "type": "literal"
@@ -437,6 +438,35 @@
                               },
                               "valueType": {
                                 "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "memberOf"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "K2-6189"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "adr"
+                              },
+                              "valueType": {
+                                "type": "iri",
+                                "typeMappings": [],
+                                "propertyMappings": []
                               }
                             }
                           ]
