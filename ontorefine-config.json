@@ -25,7 +25,7 @@
         "baseIRI": "http://example.com/base/",
         "namespaces": {
           "schema": "http://schema.org/",
-          "organization": "http://pact.ca/org/",
+          "organization": "http://pact.ca/temporary/",
           "wdt": "http://www.wikidata.org/prop/direct/",
           "skos": "http://www.w3.org/2004/02/skos/core#",
           "adr": "http://kg.artsdata.ca/resource/"
@@ -402,7 +402,7 @@
                   {
                     "valueSource": {
                       "source": "column",
-                      "columnName": "_ - stauts"
+                      "columnName": "_ - status"
                     },
                     "valueType": {
                       "type": "value_bnode",
@@ -419,29 +419,6 @@
                         }
                       ],
                       "propertyMappings": [
-                        {
-                          "property": {
-                            "valueSource": {
-                              "source": "constant",
-                              "constant": "roleName"
-                            },
-                            "transformation": {
-                              "language": "prefix",
-                              "expression": "schema"
-                            }
-                          },
-                          "values": [
-                            {
-                              "valueSource": {
-                                "source": "column",
-                                "columnName": "_ - stauts"
-                              },
-                              "valueType": {
-                                "type": "literal"
-                              }
-                            }
-                          ]
-                        },
                         {
                           "property": {
                             "valueSource": {
@@ -467,6 +444,29 @@
                                 "type": "iri",
                                 "typeMappings": [],
                                 "propertyMappings": []
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "roleName"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "column",
+                                "columnName": "_ - status"
+                              },
+                              "valueType": {
+                                "type": "literal"
                               }
                             }
                           ]
