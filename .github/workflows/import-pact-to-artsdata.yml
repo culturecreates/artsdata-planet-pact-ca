@@ -2,6 +2,8 @@ name: Fetch PACT Entities
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * 4"
 
 jobs:
   fetch-data:
