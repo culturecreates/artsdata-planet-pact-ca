@@ -30,8 +30,8 @@ def fetch_and_extract_json():
             print(f"Found {len(json_data)} records in JSON")
 
             for record in json_data:
-                # add an id as UUID for each record
-                record['id'] = str(uuid.uuid4())
+                # add an id as member_id from the record
+                record['id'] = record['member_id']
             
             # Write to file with proper formatting
             with open('output.json', 'w', encoding='utf-8') as f:
