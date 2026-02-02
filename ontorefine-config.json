@@ -470,6 +470,35 @@
                               }
                             }
                           ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "additionalType"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "ActiveMembership"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "adr"
+                              },
+                              "valueType": {
+                                "type": "iri",
+                                "typeMappings": [],
+                                "propertyMappings": []
+                              }
+                            }
+                          ]
                         }
                       ]
                     }
