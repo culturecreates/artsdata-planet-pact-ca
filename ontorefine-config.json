@@ -485,12 +485,11 @@
                           "values": [
                             {
                               "valueSource": {
-                                "source": "constant",
-                                "constant": "ActiveMembership"
+                                "source": "row_index"
                               },
                               "transformation": {
-                                "language": "prefix",
-                                "expression": "adr"
+                                "language": "grel",
+                                "expression": "if(cells[\"_ - status\"].value == \"active\", \"http://kg.artsdata.ca/resource/ActiveMembership\", \"http://kg.artsdata.ca/resource/InactiveMembership\")"
                               },
                               "valueType": {
                                 "type": "iri",
@@ -498,7 +497,7 @@
                                 "propertyMappings": []
                               }
                             }
-                          ]
+                        ]
                         }
                       ]
                     }
