@@ -470,6 +470,34 @@
                               }
                             }
                           ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "additionalType"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "schema"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "row_index"
+                              },
+                              "transformation": {
+                                "language": "grel",
+                                "expression": "if(cells[\"_ - status\"].value == \"active\", \"http://kg.artsdata.ca/resource/ActiveMembership\", \"http://kg.artsdata.ca/resource/InactiveMembership\")"
+                              },
+                              "valueType": {
+                                "type": "iri",
+                                "typeMappings": [],
+                                "propertyMappings": []
+                              }
+                            }
+                        ]
                         }
                       ]
                     }
