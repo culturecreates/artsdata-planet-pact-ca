@@ -11,13 +11,13 @@ organization:1398 a schema:Organization;
   schema:email "info@fools.ca";
   schema:telephone "613-863-7529";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb1;
+  schema:address _:388e40493d294f21840108c7010c7fc11;
   schema:memberOf _:active .
 
 _:Charity a skos:Concept;
   skos:prefLabel "Charity" .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb1 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc11 a schema:PostalAddress;
   schema:streetAddress "2 Daly Ave";
   schema:addressLocality "Ottawa";
   schema:addressRegion "ON";
@@ -31,10 +31,10 @@ _:active a schema:OrganizationRole;
 organization:1035 a schema:Organization;
   schema:name "Alberta Theatre Projects";
   schema:url <https://albertatheatreprojects.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb2;
+  schema:address _:388e40493d294f21840108c7010c7fc12;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb2 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc12 a schema:PostalAddress;
   schema:streetAddress "220 9 Avenue SE";
   schema:addressLocality "Calgary";
   schema:addressRegion "AB";
@@ -43,10 +43,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb2 a schema:PostalAddress;
 organization:1400 a schema:Organization;
   schema:name "Aluna Theatre";
   schema:url <https://www.alunatheatre.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb3;
+  schema:address _:388e40493d294f21840108c7010c7fc13;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb3 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc13 a schema:PostalAddress;
   schema:streetAddress "1 Wiltshire Ave, Unit 124";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -58,10 +58,10 @@ organization:1401 a schema:Organization;
   schema:email "producer@artisticfraud.com";
   schema:telephone "709-693-0224";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb4;
+  schema:address _:388e40493d294f21840108c7010c7fc14;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb4 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc14 a schema:PostalAddress;
   schema:streetAddress "PO Box 23193";
   schema:addressLocality "St. John&#39;s";
   schema:addressRegion "NL";
@@ -75,13 +75,13 @@ organization:1403 a schema:Organization;
   schema:email "admin@axishteatre.com";
   schema:telephone "604-669-0631";
   schema:additionalType _:Not-for-profit20Charitable20organization;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb5;
+  schema:address _:388e40493d294f21840108c7010c7fc15;
   schema:memberOf _:active .
 
 _:Not-for-profit20Charitable20organization a skos:Concept;
   skos:prefLabel "Not-for-profit Charitable organization" .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb5 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc15 a schema:PostalAddress;
   schema:streetAddress "1405 Anderson Street";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -90,10 +90,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb5 a schema:PostalAddress;
 organization:1404 a schema:Organization;
   schema:name "Bard on the Beach Shakespeare Festival";
   schema:url <https://bardonthebeach.org/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb6;
+  schema:address _:388e40493d294f21840108c7010c7fc16;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb6 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc16 a schema:PostalAddress;
   schema:streetAddress "201 - 162 w. 1st Ave";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -107,13 +107,13 @@ organization:1405 a schema:Organization;
   schema:email "isaac.thomas@belfry.bc.ca";
   schema:telephone "250-385-6835";
   schema:additionalType _:Registered20Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb7;
+  schema:address _:388e40493d294f21840108c7010c7fc17;
   schema:memberOf _:active .
 
 _:Registered20Charity a skos:Concept;
   skos:prefLabel "Registered Charity" .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb7 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc17 a schema:PostalAddress;
   schema:streetAddress "1291 Gladstone Avenue";
   schema:addressLocality "Victoria";
   schema:addressRegion "BC";
@@ -122,10 +122,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb7 a schema:PostalAddress;
 organization:1406 a schema:Organization;
   schema:name "Black Theatre Workshop";
   schema:url <https://blacktheatreworkshop.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb8;
+  schema:address _:388e40493d294f21840108c7010c7fc18;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb8 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc18 a schema:PostalAddress;
   schema:streetAddress "432-3680 rue Jeanne-Mance";
   schema:addressLocality "Montreal";
   schema:addressRegion "QC";
@@ -134,10 +134,15 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb8 a schema:PostalAddress;
 organization:1407 a schema:Organization;
   schema:name "Blyth Festival";
   schema:url <https://www.blythfestival.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb9;
+  schema:legalName "Blyth Centre for the Arts";
+  wdt:P8860 "118 812 056";
+  schema:email "info@blythfestival.com";
+  schema:telephone "519-523-9300";
+  schema:additionalType _:Charity;
+  schema:address _:388e40493d294f21840108c7010c7fc19;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb9 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc19 a schema:PostalAddress;
   schema:streetAddress "423 Queen St, Box 10";
   schema:addressLocality "Blyth";
   schema:addressRegion "ON";
@@ -146,10 +151,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb9 a schema:PostalAddress;
 organization:1408 a schema:Organization;
   schema:name "Buddies In Bad Times Theatre";
   schema:url <https://www.buddiesinbadtimes.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb10;
+  schema:address _:388e40493d294f21840108c7010c7fc110;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb10 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc110 a schema:PostalAddress;
   schema:streetAddress "12 Alexander Street";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -160,10 +165,10 @@ organization:1410 a schema:Organization;
   schema:url <https://www.cahoots.ca>;
   schema:email "info@cahoots.ca";
   schema:telephone "416-220-8480";
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb11;
+  schema:address _:388e40493d294f21840108c7010c7fc111;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb11 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc111 a schema:PostalAddress;
   schema:streetAddress "388 Queen Street East, Unit 3";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -172,10 +177,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb11 a schema:PostalAddress;
 organization:1413 a schema:Organization;
   schema:name "Carousel Players";
   schema:url <https://www.carouselplayers.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb12;
+  schema:address _:388e40493d294f21840108c7010c7fc112;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb12 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc112 a schema:PostalAddress;
   schema:streetAddress "366 St Paul Street";
   schema:addressLocality "St Catharines";
   schema:addressRegion "ON";
@@ -184,10 +189,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb12 a schema:PostalAddress;
 organization:1414 a schema:Organization;
   schema:name "Carousel Theatre for Young People";
   schema:url <https://www.carouseltheatre.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb13;
+  schema:address _:388e40493d294f21840108c7010c7fc113;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb13 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc113 a schema:PostalAddress;
   schema:streetAddress "1411 Cartwright Street";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -201,13 +206,13 @@ organization:1415 a schema:Organization;
   schema:email "admin@catalysttheatre.ca";
   schema:telephone "780-431-1750";
   schema:additionalType _:Non-profit;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb14;
+  schema:address _:388e40493d294f21840108c7010c7fc114;
   schema:memberOf _:active .
 
 _:Non-profit a skos:Concept;
   skos:prefLabel "Non-profit" .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb14 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc114 a schema:PostalAddress;
   schema:streetAddress "9828 101a Ave";
   schema:addressLocality "Edmonton";
   schema:addressRegion "AB";
@@ -221,10 +226,10 @@ organization:1416 a schema:Organization;
   schema:email "scott@centaurtheatre.com";
   schema:telephone "514-288-3161";
   schema:additionalType _:Non-profit;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb15;
+  schema:address _:388e40493d294f21840108c7010c7fc115;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb15 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc115 a schema:PostalAddress;
   schema:streetAddress "453 rue Saint-Francois-Xavier";
   schema:addressLocality "Montreal";
   schema:addressRegion "QC";
@@ -236,10 +241,10 @@ organization:1418 a schema:Organization;
   schema:legalName "Chemainus Theatre Festival Society";
   schema:telephone "250-246-9800";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb16;
+  schema:address _:388e40493d294f21840108c7010c7fc116;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb16 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc116 a schema:PostalAddress;
   schema:streetAddress "Bag 1000 9737 Chemainus Rd";
   schema:addressLocality "Chemainus";
   schema:addressRegion "BC";
@@ -248,10 +253,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb16 a schema:PostalAddress;
 organization:1419 a schema:Organization;
   schema:name "Citadel Theatre";
   schema:url <https://www.citadeltheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb17;
+  schema:address _:388e40493d294f21840108c7010c7fc117;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb17 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc117 a schema:PostalAddress;
   schema:streetAddress "9828 101 A  Avenue NW";
   schema:addressLocality "Edmonton";
   schema:addressRegion "AB";
@@ -260,10 +265,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb17 a schema:PostalAddress;
 organization:1421 a schema:Organization;
   schema:name "Concrete Theatre";
   schema:url <https://www.concretetheatre.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb18;
+  schema:address _:388e40493d294f21840108c7010c7fc118;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb18 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc118 a schema:PostalAddress;
   schema:streetAddress "102-10033 80 Avenue NW";
   schema:addressLocality "Edmonton";
   schema:addressRegion "AB";
@@ -272,24 +277,28 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb18 a schema:PostalAddress;
 organization:1787 a schema:Organization;
   schema:name "County Stage Company";
   schema:url <https://countystage.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb19;
+  schema:address _:388e40493d294f21840108c7010c7fc119;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb19 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc119 a schema:PostalAddress;
   schema:streetAddress "PO Box 219";
   schema:addressLocality "Wellington";
   schema:addressRegion "ON";
   schema:postalCode "K0K 3L0" .
+
+organization:1669 a schema:Organization;
+  schema:name "Crow's Theatre";
+  schema:memberOf _:active .
 
 organization:1424 a schema:Organization;
   schema:name "Dancing Sky Theatre";
   schema:url <https://www.dancingskytheatre.com/>;
   schema:email "admin@dancingskytheatre.com";
   schema:telephone "306-376-4445";
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb20;
+  schema:address _:388e40493d294f21840108c7010c7fc120;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb20 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc120 a schema:PostalAddress;
   schema:streetAddress "Box 69";
   schema:addressLocality "Meacham";
   schema:addressRegion "SK";
@@ -303,13 +312,13 @@ organization:1426 a schema:Organization;
   schema:email "contactus@driftwoodtheatre.com";
   schema:telephone "647-381-6537";
   schema:additionalType _:non-profit2c20charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb21;
+  schema:address _:388e40493d294f21840108c7010c7fc121;
   schema:memberOf _:active .
 
 _:non-profit2c20charity a skos:Concept;
   skos:prefLabel "non-profit, charity" .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb21 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc121 a schema:PostalAddress;
   schema:streetAddress "348 Picton Main Street";
   schema:addressLocality "Picton";
   schema:addressRegion "ON";
@@ -318,10 +327,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb21 a schema:PostalAddress;
 organization:1427 a schema:Organization;
   schema:name "Eastern Front Theatre";
   schema:url <https://www.easternfronttheatre.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb22;
+  schema:address _:388e40493d294f21840108c7010c7fc122;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb22 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc122 a schema:PostalAddress;
   schema:streetAddress "PO Box 1102 Dartmouth Main";
   schema:addressLocality "Dartmouth";
   schema:addressRegion "NS";
@@ -335,13 +344,13 @@ organization:1428 a schema:Organization;
   schema:email "info@electriccompanytheatre.com";
   schema:telephone "604-253-4222";
   schema:additionalType _:charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb23;
+  schema:address _:388e40493d294f21840108c7010c7fc123;
   schema:memberOf _:active .
 
 _:charity a skos:Concept;
   skos:prefLabel "charity" .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb23 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc123 a schema:PostalAddress;
   schema:streetAddress "PO BOX 88142 The W PO, 150-351 Abbott Street";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -355,10 +364,10 @@ organization:1027 a schema:Organization;
   schema:email "info@factorytheatre.ca";
   schema:telephone "416-504-4473";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb24;
+  schema:address _:388e40493d294f21840108c7010c7fc124;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb24 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc124 a schema:PostalAddress;
   schema:streetAddress "125 Bathurst Street";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -367,10 +376,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb24 a schema:PostalAddress;
 organization:1429 a schema:Organization;
   schema:name "Firehall Arts Centre";
   schema:url <https://www.firehallartscentre.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb25;
+  schema:address _:388e40493d294f21840108c7010c7fc125;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb25 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc125 a schema:PostalAddress;
   schema:streetAddress "280 East Cordova St.,";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -379,10 +388,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb25 a schema:PostalAddress;
 organization:1849 a schema:Organization;
   schema:name "Freewill Shakespeare Festival";
   schema:url <https://www.freewillshakespeare.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb26;
+  schema:address _:388e40493d294f21840108c7010c7fc126;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb26 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc126 a schema:PostalAddress;
   schema:streetAddress "12122 68th Street Northwest";
   schema:addressLocality "Edmonton";
   schema:addressRegion "AB";
@@ -391,10 +400,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb26 a schema:PostalAddress;
 organization:1430 a schema:Organization;
   schema:name "Gateway Theatre";
   schema:url <https://www.gatewaytheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb27;
+  schema:address _:388e40493d294f21840108c7010c7fc127;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb27 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc127 a schema:PostalAddress;
   schema:streetAddress "6500 Gilbert Rd";
   schema:addressLocality "Richmond";
   schema:addressRegion "BC";
@@ -403,10 +412,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb27 a schema:PostalAddress;
 organization:1037 a schema:Organization;
   schema:name "Geordie Theatre";
   schema:url <https://www.geordie.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb28;
+  schema:address _:388e40493d294f21840108c7010c7fc128;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb28 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc128 a schema:PostalAddress;
   schema:streetAddress "4700 rue Dagenais, Ste. 3";
   schema:addressLocality "Montreal";
   schema:addressRegion "QC";
@@ -420,10 +429,10 @@ organization:1485 a schema:Organization;
   schema:email "info@glitchtheatre.ca";
   schema:telephone "604-322-7325";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb29;
+  schema:address _:388e40493d294f21840108c7010c7fc129;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb29 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc129 a schema:PostalAddress;
   schema:streetAddress "110-750 Hamilton Street";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -432,10 +441,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb29 a schema:PostalAddress;
 organization:1432 a schema:Organization;
   schema:name "Globe Theatre";
   schema:url <https://globetheatrelive.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb30;
+  schema:address _:388e40493d294f21840108c7010c7fc130;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb30 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc130 a schema:PostalAddress;
   schema:streetAddress "1801 Scarth Street";
   schema:addressLocality "REGINA";
   schema:addressRegion "SK";
@@ -449,10 +458,10 @@ organization:1433 a schema:Organization;
   schema:email "info@gctc.ca";
   schema:telephone "613-236-5196";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb31;
+  schema:address _:388e40493d294f21840108c7010c7fc131;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb31 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc131 a schema:PostalAddress;
   schema:streetAddress "300-1227 Wellington St W, K1Y 0G7";
   schema:addressLocality "Ottawa";
   schema:addressRegion "ON";
@@ -464,10 +473,10 @@ organization:1434 a schema:Organization;
   schema:email "shelley@greenfools.com";
   schema:telephone "403-471-7444";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb32;
+  schema:address _:388e40493d294f21840108c7010c7fc132;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb32 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc132 a schema:PostalAddress;
   schema:streetAddress "7056 G Farrell RD S.E., 403 Forge Rd SE";
   schema:addressLocality "Calgary";
   schema:addressRegion "AB";
@@ -481,10 +490,10 @@ organization:1435 a schema:Organization;
   schema:email "info@greenlight-arts.com";
   schema:telephone "226-444-8011";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb33;
+  schema:address _:388e40493d294f21840108c7010c7fc133;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb33 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc133 a schema:PostalAddress;
   schema:streetAddress "Catalyst Commons, 137 Glasgow Street, Office #189";
   schema:addressLocality "Kitchener";
   schema:addressRegion "ON";
@@ -493,10 +502,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb33 a schema:PostalAddress;
 organization:1438 a schema:Organization;
   schema:name "Halifax Theatre For Young People";
   schema:url <https://www.halifaxtheatreforyoungpeople.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb34;
+  schema:address _:388e40493d294f21840108c7010c7fc134;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb34 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc134 a schema:PostalAddress;
   schema:streetAddress "67 Tannery Road, P.O. Box 716";
   schema:addressLocality "Hantsport";
   schema:addressRegion "NS";
@@ -505,10 +514,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb34 a schema:PostalAddress;
 organization:1439 a schema:Organization;
   schema:name "Hudson Village Theatre";
   schema:url <https://villagetheatre.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb35;
+  schema:address _:388e40493d294f21840108c7010c7fc135;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb35 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc135 a schema:PostalAddress;
   schema:streetAddress "28 Wharf Road";
   schema:addressLocality "Hudson";
   schema:addressRegion "QC";
@@ -517,10 +526,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb35 a schema:PostalAddress;
 organization:1441 a schema:Organization;
   schema:name "Inside Out Theatre";
   schema:url <https://www.insideouttheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb36;
+  schema:address _:388e40493d294f21840108c7010c7fc136;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb36 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc136 a schema:PostalAddress;
   schema:streetAddress "#150 625 11th Ave SW";
   schema:addressLocality "Calgary";
   schema:addressRegion "AB";
@@ -533,10 +542,10 @@ organization:1442 a schema:Organization;
   schema:email "info@kaleidocope.bc.ca";
   schema:telephone "250-383-8124";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb37;
+  schema:address _:388e40493d294f21840108c7010c7fc137;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb37 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc137 a schema:PostalAddress;
   schema:streetAddress "613 Pandora Avenue";
   schema:addressLocality "Victoria";
   schema:addressRegion "BC";
@@ -545,10 +554,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb37 a schema:PostalAddress;
 organization:1443 a schema:Organization;
   schema:name "Lighthouse Festival Theatre";
   schema:url <https://lighthousetheatre.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb38;
+  schema:address _:388e40493d294f21840108c7010c7fc138;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb38 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc138 a schema:PostalAddress;
   schema:streetAddress "247 Main St.";
   schema:addressLocality "Port Dover";
   schema:addressRegion "ON";
@@ -557,10 +566,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb38 a schema:PostalAddress;
 organization:1444 a schema:Organization;
   schema:name "Lunchbox Theatre";
   schema:url <https://www.lunchboxtheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb39;
+  schema:address _:388e40493d294f21840108c7010c7fc139;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb39 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc139 a schema:PostalAddress;
   schema:streetAddress "410-131 9 Ave SW";
   schema:addressLocality "Calgary";
   schema:addressRegion "AB";
@@ -569,10 +578,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb39 a schema:PostalAddress;
 organization:1445 a schema:Organization;
   schema:name "Magnus Theatre";
   schema:url <https://www.magnustheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb40;
+  schema:address _:388e40493d294f21840108c7010c7fc140;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb40 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc140 a schema:PostalAddress;
   schema:streetAddress "10 S Algoma St";
   schema:addressLocality "Thunder Bay";
   schema:addressRegion "ON";
@@ -581,10 +590,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb40 a schema:PostalAddress;
 organization:1447 a schema:Organization;
   schema:name "Manitoba Theatre for Young People";
   schema:url <https://mtyp.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb41;
+  schema:address _:388e40493d294f21840108c7010c7fc141;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb41 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc141 a schema:PostalAddress;
   schema:streetAddress "2 Forks Market Road";
   schema:addressLocality "Winnipeg";
   schema:addressRegion "MB";
@@ -593,10 +602,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb41 a schema:PostalAddress;
 organization:1448 a schema:Organization;
   schema:name "Mermaid Theatre of Nova Scotia";
   schema:url <https://www.mermaidtheatre.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb42;
+  schema:address _:388e40493d294f21840108c7010c7fc142;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb42 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc142 a schema:PostalAddress;
   schema:streetAddress "132 Gerrish Street, P.O Box 2697";
   schema:addressLocality "Windsor";
   schema:addressRegion "NS";
@@ -605,10 +614,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb42 a schema:PostalAddress;
 organization:1451 a schema:Organization;
   schema:name "Multicultural Theatre Space, The (The MT Space)";
   schema:url <https://mtspace.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb43;
+  schema:address _:388e40493d294f21840108c7010c7fc143;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb43 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc143 a schema:PostalAddress;
   schema:streetAddress "16 William St W, Upper Narthex";
   schema:addressLocality "Waterloo";
   schema:addressRegion "ON";
@@ -617,10 +626,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb43 a schema:PostalAddress;
 organization:1455 a schema:Organization;
   schema:name "Necessary Angel Theatre Company";
   schema:url <https://www.necessaryangel.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb44;
+  schema:address _:388e40493d294f21840108c7010c7fc144;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb44 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc144 a schema:PostalAddress;
   schema:streetAddress "393-401 Richmond Street West";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -629,10 +638,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb44 a schema:PostalAddress;
 organization:1456 a schema:Organization;
   schema:name "Neptune Theatre Foundation";
   schema:url <https://www.neptunetheatre.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb45;
+  schema:address _:388e40493d294f21840108c7010c7fc145;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb45 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc145 a schema:PostalAddress;
   schema:streetAddress "1593 Argyle Street";
   schema:addressLocality "Halifax";
   schema:addressRegion "NS";
@@ -641,10 +650,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb45 a schema:PostalAddress;
 organization:1458 a schema:Organization;
   schema:name "New West Theatre";
   schema:url <https://www.newwesttheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb46;
+  schema:address _:388e40493d294f21840108c7010c7fc146;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb46 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc146 a schema:PostalAddress;
   schema:streetAddress "Suite 111 210A 12A St N";
   schema:addressLocality "Lethbridge";
   schema:addressRegion "AB";
@@ -653,10 +662,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb46 a schema:PostalAddress;
 organization:1459 a schema:Organization;
   schema:name "Neworld Theatre";
   schema:url <https://www.neworldtheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb47;
+  schema:address _:388e40493d294f21840108c7010c7fc147;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb47 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc147 a schema:PostalAddress;
   schema:streetAddress "1422 William Street";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -665,10 +674,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb47 a schema:PostalAddress;
 organization:1460 a schema:Organization;
   schema:name "Nightswimming";
   schema:url <https://www.nightswimming.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb48;
+  schema:address _:388e40493d294f21840108c7010c7fc148;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb48 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc148 a schema:PostalAddress;
   schema:streetAddress "250 The Esplanade, Suite 307";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -677,10 +686,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb48 a schema:PostalAddress;
 organization:1461 a schema:Organization;
   schema:name "Nightwood Theatre";
   schema:url <https://www.nightwoodtheatre.net/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb49;
+  schema:address _:388e40493d294f21840108c7010c7fc149;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb49 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc149 a schema:PostalAddress;
   schema:streetAddress "877 Yonge St. Suite 201";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -689,10 +698,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb49 a schema:PostalAddress;
 organization:1462 a schema:Organization;
   schema:name "Northern Light Theatre";
   schema:url <https://www.northernlighttheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb50;
+  schema:address _:388e40493d294f21840108c7010c7fc150;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb50 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc150 a schema:PostalAddress;
   schema:streetAddress "#203, 10816A  82 Ave";
   schema:addressLocality "Edmonton";
   schema:addressRegion "AB";
@@ -701,10 +710,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb50 a schema:PostalAddress;
 organization:1463 a schema:Organization;
   schema:name "Obsidian Theatre Company";
   schema:url <https://www.obsidiantheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb51;
+  schema:address _:388e40493d294f21840108c7010c7fc151;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb51 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc151 a schema:PostalAddress;
   schema:streetAddress "1089 Dundas Street East";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -713,10 +722,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb51 a schema:PostalAddress;
 organization:1466 a schema:Organization;
   schema:name "One Yellow Rabbit Performance Theatre";
   schema:url <https://www.oyr.org>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb52;
+  schema:address _:388e40493d294f21840108c7010c7fc152;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb52 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc152 a schema:PostalAddress;
   schema:streetAddress "21, 225 8 AV SE";
   schema:addressLocality "Calgary";
   schema:addressRegion "AB";
@@ -729,10 +738,10 @@ organization:2289 a schema:Organization;
   wdt:P8860 "838505774";
   schema:email "info@outsidethemarch.ca";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb53;
+  schema:address _:388e40493d294f21840108c7010c7fc153;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb53 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc153 a schema:PostalAddress;
   schema:streetAddress "202-258 Wallace Avenue";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -741,10 +750,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb53 a schema:PostalAddress;
 organization:1468 a schema:Organization;
   schema:name "Pat the Dog Theatre Creation";
   schema:url <https://patthedog.org>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb54;
+  schema:address _:388e40493d294f21840108c7010c7fc154;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb54 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc154 a schema:PostalAddress;
   schema:streetAddress "hello@patthedog.org";
   schema:addressLocality "Waterloo";
   schema:addressRegion "ON";
@@ -753,10 +762,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb54 a schema:PostalAddress;
 organization:1470 a schema:Organization;
   schema:name "Persephone Theatre";
   schema:url <https://www.persephonetheatre.org>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb55;
+  schema:address _:388e40493d294f21840108c7010c7fc155;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb55 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc155 a schema:PostalAddress;
   schema:streetAddress "100 Spadina Crescent East";
   schema:addressLocality "Saskatoon";
   schema:addressRegion "SK";
@@ -769,10 +778,10 @@ organization:1472 a schema:Organization;
   wdt:P8860 "894730159";
   schema:email "info@pitheatre.com";
   schema:additionalType _:Registered20Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb56;
+  schema:address _:388e40493d294f21840108c7010c7fc156;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb56 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc156 a schema:PostalAddress;
   schema:streetAddress "1955 McLean Drive";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -781,10 +790,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb56 a schema:PostalAddress;
 organization:1475 a schema:Organization;
   schema:name "Playwrights&#39; Workshop Montreal";
   schema:url <https://www.playwrights.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb57;
+  schema:address _:388e40493d294f21840108c7010c7fc157;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb57 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc157 a schema:PostalAddress;
   schema:streetAddress "7250 rue Clark, suite 103";
   schema:addressLocality "Montreal";
   schema:addressRegion "QC";
@@ -793,10 +802,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb57 a schema:PostalAddress;
 organization:1478 a schema:Organization;
   schema:name "Port Stanley Festival Theatre";
   schema:url <https://www.psft.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb58;
+  schema:address _:388e40493d294f21840108c7010c7fc158;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb58 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc158 a schema:PostalAddress;
   schema:streetAddress "6-302 Bridge Street";
   schema:addressLocality "Port Stanley";
   schema:addressRegion "ON";
@@ -805,10 +814,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb58 a schema:PostalAddress;
 organization:1988 a schema:Organization;
   schema:name "Porte Parole Productions";
   schema:url <https://www.porteparole.org>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb59;
+  schema:address _:388e40493d294f21840108c7010c7fc159;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb59 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc159 a schema:PostalAddress;
   schema:streetAddress "4398 Boulevard Saint-Laurent, #310";
   schema:addressLocality "Montreal";
   schema:addressRegion "QC";
@@ -817,10 +826,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb59 a schema:PostalAddress;
 organization:2288 a schema:Organization;
   schema:name "Poverty Cove Theatre Company";
   schema:url <https://povertycove.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb60;
+  schema:address _:388e40493d294f21840108c7010c7fc160;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb60 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc160 a schema:PostalAddress;
   schema:streetAddress "48 Ennis Avenue";
   schema:addressLocality "St. John&#39;s";
   schema:addressRegion "NL";
@@ -829,10 +838,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb60 a schema:PostalAddress;
 organization:1032 a schema:Organization;
   schema:name "Prairie Theatre Exchange";
   schema:url <https://pte.mb.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb61;
+  schema:address _:388e40493d294f21840108c7010c7fc161;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb61 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc161 a schema:PostalAddress;
   schema:streetAddress "Unit Y300-393 Portage Avenue, 3rd Floor, Portage Place Mall";
   schema:addressLocality "Winnipeg";
   schema:addressRegion "MB";
@@ -841,10 +850,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb61 a schema:PostalAddress;
 organization:1479 a schema:Organization;
   schema:name "Presentation House Theatre";
   schema:url <https://www.phtheatre.org>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb62;
+  schema:address _:388e40493d294f21840108c7010c7fc162;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb62 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc162 a schema:PostalAddress;
   schema:streetAddress "333 Chesterfield Avenue";
   schema:addressLocality "North Vancouver";
   schema:addressRegion "BC";
@@ -857,10 +866,10 @@ organization:1474 a schema:Organization;
   schema:email "plays@playwrightstheatre.com";
   schema:telephone "604-685-6228";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb63;
+  schema:address _:388e40493d294f21840108c7010c7fc163;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb63 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc163 a schema:PostalAddress;
   schema:streetAddress "1422 William Street";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -873,10 +882,10 @@ organization:2080 a schema:Organization;
   wdt:P8860 "836199976";
   schema:email "info@punctuatetheatre.com";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb64;
+  schema:address _:388e40493d294f21840108c7010c7fc164;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb64 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc164 a schema:PostalAddress;
   schema:streetAddress "PO Box 52201 Garneau";
   schema:addressLocality "Edmonton";
   schema:addressRegion "AB";
@@ -890,10 +899,10 @@ organization:2190 a schema:Organization;
 organization:1484 a schema:Organization;
   schema:name "RCA Theatre Company";
   schema:url <https://www.lspuhall.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb65;
+  schema:address _:388e40493d294f21840108c7010c7fc165;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb65 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc165 a schema:PostalAddress;
   schema:streetAddress "LSPU Hall, 3 Victoria Street";
   schema:addressLocality "St. John&#39;s";
   schema:addressRegion "NL";
@@ -902,10 +911,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb65 a schema:PostalAddress;
 organization:1488 a schema:Organization;
   schema:name "Rosebud Theatre";
   schema:url <https://rosebudtheatre.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb66;
+  schema:address _:388e40493d294f21840108c7010c7fc166;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb66 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc166 a schema:PostalAddress;
   schema:streetAddress "Box 654, 102 Railway Avenue";
   schema:addressLocality "Rosebud";
   schema:addressRegion "AB";
@@ -914,10 +923,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb66 a schema:PostalAddress;
 organization:1489 a schema:Organization;
   schema:name "Roseneath Theatre";
   schema:url <https://www.roseneath.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb67;
+  schema:address _:388e40493d294f21840108c7010c7fc167;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb67 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc167 a schema:PostalAddress;
   schema:streetAddress "651 Dufferin St. 3rd Floor";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -931,10 +940,10 @@ organization:1490 a schema:Organization;
   schema:email "eklassen@royalmtc.ca";
   schema:telephone "204-956-1340";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb68;
+  schema:address _:388e40493d294f21840108c7010c7fc168;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb68 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc168 a schema:PostalAddress;
   schema:streetAddress "174 Market Avenue";
   schema:addressLocality "Winnipeg";
   schema:addressRegion "MB";
@@ -943,10 +952,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb68 a schema:PostalAddress;
 organization:1491 a schema:Organization;
   schema:name "Ruby Slippers Productions Society";
   schema:url <https://www.rubyslippers.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb69;
+  schema:address _:388e40493d294f21840108c7010c7fc169;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb69 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc169 a schema:PostalAddress;
   schema:streetAddress "1398 Cartwright Street, #204";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -960,10 +969,10 @@ organization:1493 a schema:Organization;
   schema:email "chelsea@savagesociety.ca";
   schema:telephone "604-838-6587";
   schema:additionalType _:charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb70;
+  schema:address _:388e40493d294f21840108c7010c7fc170;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb70 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc170 a schema:PostalAddress;
   schema:streetAddress "319 Eighth St";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -972,10 +981,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb70 a schema:PostalAddress;
 organization:1494 a schema:Organization;
   schema:name "Scapegoat Carnivale";
   schema:url <https://www.scapegoatcarnivale.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb71;
+  schema:address _:388e40493d294f21840108c7010c7fc171;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb71 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc171 a schema:PostalAddress;
   schema:streetAddress "4-114 Bernard O.";
   schema:addressLocality "Montreal";
   schema:addressRegion "QC";
@@ -984,10 +993,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb71 a schema:PostalAddress;
 organization:1495 a schema:Organization;
   schema:name "Segal Centre for Performing Arts";
   schema:url <https://www.segalcentre.org/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb72;
+  schema:address _:388e40493d294f21840108c7010c7fc172;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb72 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc172 a schema:PostalAddress;
   schema:streetAddress "5170 Cote-Sainte-Catherine";
   schema:addressLocality "Montreal";
   schema:addressRegion "QC";
@@ -996,10 +1005,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb72 a schema:PostalAddress;
 organization:1496 a schema:Organization;
   schema:name "Shadow Theatre";
   schema:url <https://shadowtheatre.org>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb73;
+  schema:address _:388e40493d294f21840108c7010c7fc173;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb73 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc173 a schema:PostalAddress;
   schema:streetAddress "10329-83 AVe.";
   schema:addressLocality "Edmonton";
   schema:addressRegion "AB";
@@ -1008,10 +1017,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb73 a schema:PostalAddress;
 organization:1498 a schema:Organization;
   schema:name "Shakespeare on the Saskatchewan Festival";
   schema:url <https://www.shakespearesask.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb74;
+  schema:address _:388e40493d294f21840108c7010c7fc174;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb74 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc174 a schema:PostalAddress;
   schema:streetAddress "215-401 33rd St W, Festival Site: 948 Spadina Crescent E Saskatoon, SK S7K 3H6";
   schema:addressLocality "Saskatoon";
   schema:addressRegion "SK";
@@ -1020,10 +1029,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb74 a schema:PostalAddress;
 organization:1500 a schema:Organization;
   schema:name "Ship's Company Theatre";
   schema:url <https://www.shipscompanytheatre.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb75;
+  schema:address _:388e40493d294f21840108c7010c7fc175;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb75 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc175 a schema:PostalAddress;
   schema:streetAddress "18 Lower Main Street, PO Box 275";
   schema:addressLocality "Parrsboro";
   schema:addressRegion "NS";
@@ -1032,10 +1041,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb75 a schema:PostalAddress;
 organization:1501 a schema:Organization;
   schema:name "Smile Theatre";
   schema:url <https://smiltheatre.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb76;
+  schema:address _:388e40493d294f21840108c7010c7fc176;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb76 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc176 a schema:PostalAddress;
   schema:streetAddress "PO Box 31007, 725 College Street, Toronto";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -1044,10 +1053,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb76 a schema:PostalAddress;
 organization:1502 a schema:Organization;
   schema:name "Soulpepper Theatre Company";
   schema:url <https://soulpepper.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb77;
+  schema:address _:388e40493d294f21840108c7010c7fc177;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb77 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc177 a schema:PostalAddress;
   schema:streetAddress "50 Tank House Lane";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -1056,10 +1065,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb77 a schema:PostalAddress;
 organization:1505 a schema:Organization;
   schema:name "Story Theatre Productions Society";
   schema:url <https://www.storytheatre.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb78;
+  schema:address _:388e40493d294f21840108c7010c7fc178;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb78 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc178 a schema:PostalAddress;
   schema:streetAddress "3275 Albion Road, Unit B";
   schema:addressLocality "Victoria";
   schema:addressRegion "BC";
@@ -1068,10 +1077,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb78 a schema:PostalAddress;
 organization:1506 a schema:Organization;
   schema:name "Stratford Festival";
   schema:url <https://www.stratfordfestival.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb79;
+  schema:address _:388e40493d294f21840108c7010c7fc179;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb79 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc179 a schema:PostalAddress;
   schema:streetAddress "55 Queen St";
   schema:addressLocality "Stratford";
   schema:addressRegion "ON";
@@ -1083,10 +1092,10 @@ organization:1509 a schema:Organization;
   wdt:P8860 "11920819";
   schema:email "info@tapestryopera.com";
   schema:telephone "416-537-6066";
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb80;
+  schema:address _:388e40493d294f21840108c7010c7fc180;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb80 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc180 a schema:PostalAddress;
   schema:streetAddress "877 Yonge St";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -1100,10 +1109,10 @@ organization:1511 a schema:Organization;
   schema:email "lhansen@grandtheatre.com";
   schema:telephone "519-672-9030";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb81;
+  schema:address _:388e40493d294f21840108c7010c7fc181;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb81 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc181 a schema:PostalAddress;
   schema:streetAddress "471 Richmond St";
   schema:addressLocality "London";
   schema:addressRegion "ON";
@@ -1112,10 +1121,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb81 a schema:PostalAddress;
 organization:1910 a schema:Organization;
   schema:name "The Grove Theatre";
   schema:url <https://www.grovetheatre.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb82;
+  schema:address _:388e40493d294f21840108c7010c7fc182;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb82 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc182 a schema:PostalAddress;
   schema:streetAddress "2 Water Street, PO Box 1167";
   schema:addressLocality "Fenelon Falls";
   schema:addressRegion "ON";
@@ -1124,10 +1133,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb82 a schema:PostalAddress;
 organization:1512 a schema:Organization;
   schema:name "The Norm Foster Festival";
   schema:url <https://fosterfestival.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb83;
+  schema:address _:388e40493d294f21840108c7010c7fc183;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb83 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc183 a schema:PostalAddress;
   schema:streetAddress "5 Race Street, Upstairs";
   schema:addressLocality "St. Catharines";
   schema:addressRegion "ON";
@@ -1136,10 +1145,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb83 a schema:PostalAddress;
 organization:1513 a schema:Organization;
   schema:name "The Only Animal";
   schema:url <https://www.theonlyanimal.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb84;
+  schema:address _:388e40493d294f21840108c7010c7fc184;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb84 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc184 a schema:PostalAddress;
   schema:streetAddress "Box 248, 1125 Emery Road";
   schema:addressLocality "Roberts Creek";
   schema:addressRegion "BC";
@@ -1148,10 +1157,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb84 a schema:PostalAddress;
 organization:1514 a schema:Organization;
   schema:name "Theatre Aquarius";
   schema:url <https://theatreaquarius.org/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb85;
+  schema:address _:388e40493d294f21840108c7010c7fc185;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb85 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc185 a schema:PostalAddress;
   schema:streetAddress "190 King William Street";
   schema:addressLocality "Hamilton";
   schema:addressRegion "ON";
@@ -1160,10 +1169,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb85 a schema:PostalAddress;
 organization:1516 a schema:Organization;
   schema:name "Theatre Calgary";
   schema:url <https://theatrecalgary.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb86;
+  schema:address _:388e40493d294f21840108c7010c7fc186;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb86 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc186 a schema:PostalAddress;
   schema:streetAddress "220 9 Avenue SE";
   schema:addressLocality "Calgary";
   schema:addressRegion "AB";
@@ -1172,32 +1181,34 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb86 a schema:PostalAddress;
 organization:1518 a schema:Organization;
   schema:name "Theatre Gargantua";
   schema:url <https://theatregargantua.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb87;
-  schema:memberOf _:active .
+  schema:address _:388e40493d294f21840108c7010c7fc187 .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb87 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc187 a schema:PostalAddress;
   schema:streetAddress "651 Dufferin Street";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
   schema:postalCode "M6K 2B2" .
 
-organization:1519 a schema:Organization;
-  schema:name "Theatre Network Society";
-  schema:url <https://theatrenetwork.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb88 .
-
-_:eb4869b3f28e4dac8b0254c24f8b2adb88 a schema:PostalAddress;
-  schema:streetAddress "10708 124 Street NW";
-  schema:addressLocality "Edmonton";
-  schema:addressRegion "AB";
-  schema:postalCode "T5M 0H1" .
-
-organization:1519 schema:memberOf _:active .
+organization:1518 schema:memberOf _:active .
 
 _:active a schema:OrganizationRole;
   schema:memberOf adr:K2-6189;
   schema:roleName "active";
   schema:additionalType adr:ActiveMembership .
+
+organization:1519 a schema:Organization;
+  schema:name "Theatre Network Society";
+  schema:url <https://theatrenetwork.ca/>;
+  schema:email "executivedirector@theatrenetwork.ca";
+  schema:telephone "780-453-2440";
+  schema:address _:388e40493d294f21840108c7010c7fc188;
+  schema:memberOf _:active .
+
+_:388e40493d294f21840108c7010c7fc188 a schema:PostalAddress;
+  schema:streetAddress "10708 124 Street NW";
+  schema:addressLocality "Edmonton";
+  schema:addressRegion "AB";
+  schema:postalCode "T5M 0H1" .
 
 organization:1520 a schema:Organization;
   schema:name "Theatre New Brunswick";
@@ -1207,13 +1218,13 @@ organization:1520 a schema:Organization;
   schema:email "info@tnb.nb.ca";
   schema:telephone "506-460-1381";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb89;
+  schema:address _:388e40493d294f21840108c7010c7fc189;
   schema:memberOf _:active .
 
 _:Charity a skos:Concept;
   skos:prefLabel "Charity" .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb89 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc189 a schema:PostalAddress;
   schema:streetAddress "55 Whiting Road";
   schema:addressLocality "Fredericton";
   schema:addressRegion "NB";
@@ -1226,10 +1237,10 @@ organization:1523 a schema:Organization;
   schema:email "tickets@theatreorangeville.ca";
   schema:telephone "519-942-3423";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb90;
+  schema:address _:388e40493d294f21840108c7010c7fc190;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb90 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc190 a schema:PostalAddress;
   schema:streetAddress "87 Broadway";
   schema:addressLocality "Orangeville";
   schema:addressRegion "ON";
@@ -1238,10 +1249,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb90 a schema:PostalAddress;
 organization:1524 a schema:Organization;
   schema:name "Theatre Passe Muraille";
   schema:url <https://www.passemuraille.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb91;
+  schema:address _:388e40493d294f21840108c7010c7fc191;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb91 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc191 a schema:PostalAddress;
   schema:streetAddress "16 Ryerson Avenue";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -1250,10 +1261,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb91 a schema:PostalAddress;
 organization:1525 a schema:Organization;
   schema:name "Theatre Projects Manitoba";
   schema:url <https://theatreprojectsmanitoba.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb92;
+  schema:address _:388e40493d294f21840108c7010c7fc192;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb92 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc192 a schema:PostalAddress;
   schema:streetAddress "300-245 MCDERMOT AVENUE";
   schema:addressLocality "WINNIPEG";
   schema:addressRegion "MB";
@@ -1262,10 +1273,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb92 a schema:PostalAddress;
 organization:1526 a schema:Organization;
   schema:name "Theatre SKAM";
   schema:url <https://www.skam.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb93;
+  schema:address _:388e40493d294f21840108c7010c7fc193;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb93 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc193 a schema:PostalAddress;
   schema:streetAddress "Box 8563 Main PO";
   schema:addressLocality "Victoria";
   schema:addressRegion "BC";
@@ -1274,10 +1285,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb93 a schema:PostalAddress;
 organization:1530 a schema:Organization;
   schema:name "Thousand Islands Playhouse";
   schema:url <https://www.1000islandsplayhouse.com>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb94;
+  schema:address _:388e40493d294f21840108c7010c7fc194;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb94 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc194 a schema:PostalAddress;
   schema:streetAddress "185 South Street";
   schema:addressLocality "Gananoque";
   schema:addressRegion "ON";
@@ -1290,10 +1301,10 @@ organization:1521 a schema:Organization;
   schema:email "gm@theatrenewfoundland.com";
   schema:telephone "709-907-9896. ext.1001";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb95;
+  schema:address _:388e40493d294f21840108c7010c7fc195;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb95 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc195 a schema:PostalAddress;
   schema:streetAddress "188 Main St";
   schema:addressLocality "Cow Head";
   schema:addressRegion "NL";
@@ -1305,13 +1316,13 @@ organization:1532 a schema:Organization;
   schema:email "info@touchstonetheatre.com";
   schema:telephone "604-709-9973";
   schema:additionalType _:Non-profit;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb96;
+  schema:address _:388e40493d294f21840108c7010c7fc196;
   schema:memberOf _:active .
 
 _:Non-profit a skos:Concept;
   skos:prefLabel "Non-profit" .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb96 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc196 a schema:PostalAddress;
   schema:streetAddress "110-750 Hamilton St";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -1322,10 +1333,10 @@ organization:1936 a schema:Organization;
   schema:url <https://www.tweedandcompany.com>;
   wdt:P8860 "788788115";
   schema:telephone "613-478-6060";
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb97;
+  schema:address _:388e40493d294f21840108c7010c7fc197;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb97 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc197 a schema:PostalAddress;
   schema:streetAddress "Box 853, 13 Bridgewater Road";
   schema:addressLocality "Tweed";
   schema:addressRegion "ON";
@@ -1334,10 +1345,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb97 a schema:PostalAddress;
 organization:1533 a schema:Organization;
   schema:name "Two Planks and a Passion Theatre";
   schema:url <https://twoplanks.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb98;
+  schema:address _:388e40493d294f21840108c7010c7fc198;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb98 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc198 a schema:PostalAddress;
   schema:streetAddress "Box 190";
   schema:addressLocality "Canning";
   schema:addressRegion "NS";
@@ -1346,10 +1357,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb98 a schema:PostalAddress;
 organization:1536 a schema:Organization;
   schema:name "Vancouver Asian Canadian Theatre";
   schema:url <https://vact.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb99;
+  schema:address _:388e40493d294f21840108c7010c7fc199;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb99 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc199 a schema:PostalAddress;
   schema:streetAddress "1885 Venables St";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -1358,10 +1369,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb99 a schema:PostalAddress;
 organization:1537 a schema:Organization;
   schema:name "Vertigo Theatre";
   schema:url <https://www.vertigotheatre.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb100;
+  schema:address _:388e40493d294f21840108c7010c7fc1100;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb100 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc1100 a schema:PostalAddress;
   schema:streetAddress "#161, 115 - 9 Ave SE";
   schema:addressLocality "Calgary";
   schema:addressRegion "AB";
@@ -1370,10 +1381,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb100 a schema:PostalAddress;
 organization:1540 a schema:Organization;
   schema:name "Watermark Theatre";
   schema:url <https://watermarktheatre.com/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb101;
+  schema:address _:388e40493d294f21840108c7010c7fc1101;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb101 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc1101 a schema:PostalAddress;
   schema:streetAddress "PO Box 190, 57 Church Hill Ave";
   schema:addressLocality "North Rustico";
   schema:addressRegion "PE";
@@ -1382,10 +1393,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb101 a schema:PostalAddress;
 organization:1030 a schema:Organization;
   schema:name "Western Canada Theatre";
   schema:url <https://www.wctlive.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb102;
+  schema:address _:388e40493d294f21840108c7010c7fc1102;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb102 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc1102 a schema:PostalAddress;
   schema:streetAddress "PO Box 329";
   schema:addressLocality "Kamloops";
   schema:addressRegion "BC";
@@ -1394,10 +1405,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb102 a schema:PostalAddress;
 organization:1542 a schema:Organization;
   schema:name "Western Gold Theatre";
   schema:url <https://westerngoldtheatre.org/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb103;
+  schema:address _:388e40493d294f21840108c7010c7fc1103;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb103 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc1103 a schema:PostalAddress;
   schema:streetAddress "1720 Barclay Street, Suite 607";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
@@ -1411,10 +1422,10 @@ organization:1031 a schema:Organization;
   schema:email "info@wjt.ca";
   schema:telephone "204-477-7515";
   schema:additionalType _:Charity;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb104;
+  schema:address _:388e40493d294f21840108c7010c7fc1104;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb104 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc1104 a schema:PostalAddress;
   schema:streetAddress "C148-123 Doncaster Street";
   schema:addressLocality "Winnipeg";
   schema:addressRegion "MB";
@@ -1423,10 +1434,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb104 a schema:PostalAddress;
 organization:1544 a schema:Organization;
   schema:name "Workshop West Playwrights' Theatre";
   schema:url <https://www.workshopwest.org>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb105;
+  schema:address _:388e40493d294f21840108c7010c7fc1105;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb105 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc1105 a schema:PostalAddress;
   schema:streetAddress "8529 Gateway Boulevard";
   schema:addressLocality "Edmonton";
   schema:addressRegion "AB";
@@ -1435,10 +1446,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb105 a schema:PostalAddress;
 organization:1033 a schema:Organization;
   schema:name "Young People&#39;sTheatre";
   schema:url <https://www.youngpeoplestheatre.org/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb106;
+  schema:address _:388e40493d294f21840108c7010c7fc1106;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb106 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc1106 a schema:PostalAddress;
   schema:streetAddress "165 Front Street East";
   schema:addressLocality "Toronto";
   schema:addressRegion "ON";
@@ -1447,10 +1458,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb106 a schema:PostalAddress;
 organization:1545 a schema:Organization;
   schema:name "Youtheatre";
   schema:url <https://www.youtheatre.ca/>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb107;
+  schema:address _:388e40493d294f21840108c7010c7fc1107;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb107 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc1107 a schema:PostalAddress;
   schema:streetAddress "5333 Casgrain Ave, #507";
   schema:addressLocality "Montreal";
   schema:addressRegion "QC";
@@ -1459,10 +1470,10 @@ _:eb4869b3f28e4dac8b0254c24f8b2adb107 a schema:PostalAddress;
 organization:2176 a schema:Organization;
   schema:name "Zee Zee Theatre Company";
   schema:url <https://www.zeezeetheatre.ca>;
-  schema:address _:eb4869b3f28e4dac8b0254c24f8b2adb108;
+  schema:address _:388e40493d294f21840108c7010c7fc1108;
   schema:memberOf _:active .
 
-_:eb4869b3f28e4dac8b0254c24f8b2adb108 a schema:PostalAddress;
+_:388e40493d294f21840108c7010c7fc1108 a schema:PostalAddress;
   schema:streetAddress "1885 Venables Street";
   schema:addressLocality "Vancouver";
   schema:addressRegion "BC";
