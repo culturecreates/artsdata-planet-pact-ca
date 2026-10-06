@@ -218,7 +218,7 @@
                     },
                     "transformation": {
                       "language": "grel",
-                      "expression": "if(isBlank(cells[\"_ - legalform\"].value), null, \"http://pact.ca/legalForm/\" + cells[\"_ - legalform\"].value.trim().toLowercase().replace(/[^a-z0-9]+/g, \"-\").replace(/^-+|-+$/g, \"\"))"
+                      "expression": "if(isBlank(cells[\"_ - legalform\"].value), null, \"http://pact.ca/legalForm/\" + cells[\"_ - legalform\"].value.trim().toLowercase().replace(/[^a-z0-9]+/, \"-\").replace(/^-+|-+$/, \"\"))"
                     },
                     "valueType": {
                       "type": "iri",
