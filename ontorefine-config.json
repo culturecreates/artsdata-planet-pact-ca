@@ -28,7 +28,8 @@
           "organization": "http://pact.ca/member/",
           "wdt": "http://www.wikidata.org/prop/direct/",
           "skos": "http://www.w3.org/2004/02/skos/core#",
-          "adr": "http://kg.artsdata.ca/resource/"
+          "adr": "http://kg.artsdata.ca/resource/",
+          "pactlegal": "http://pact.ca/legalForm/"
         },
         "subjectMappings": [
           {
@@ -215,8 +216,12 @@
                       "source": "column",
                       "columnName": "_ - legalform"
                     },
+                    "transformation": {
+                      "language": "grel",
+                      "expression": "if(isBlank(cells[\"_ - legalform\"].value), null, \"http://pact.ca/legalForm/\" + cells[\"_ - legalform\"].value.trim().toLowercase().replace(/[^a-z0-9]+/, \"-\").replace(/^-+|-+$/, \"\"))"
+                    },
                     "valueType": {
-                      "type": "value_bnode",
+                      "type": "iri",
                       "typeMappings": [
                         {
                           "valueSource": {
@@ -249,6 +254,35 @@
                               },
                               "valueType": {
                                 "type": "literal"
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "property": {
+                            "valueSource": {
+                              "source": "constant",
+                              "constant": "inScheme"
+                            },
+                            "transformation": {
+                              "language": "prefix",
+                              "expression": "skos"
+                            }
+                          },
+                          "values": [
+                            {
+                              "valueSource": {
+                                "source": "constant",
+                                "constant": "scheme"
+                              },
+                              "transformation": {
+                                "language": "prefix",
+                                "expression": "pactlegal"
+                              },
+                              "valueType": {
+                                "type": "iri",
+                                "typeMappings": [],
+                                "propertyMappings": []
                               }
                             }
                           ]
@@ -500,6 +534,55 @@
                         ]
                         }
                       ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "subject": {
+              "valueSource": {
+                "source": "constant",
+                "constant": "scheme"
+              },
+              "transformation": {
+                "language": "prefix",
+                "expression": "pactlegal"
+              }
+            },
+            "typeMappings": [
+              {
+                "valueSource": {
+                  "source": "constant",
+                  "constant": "ConceptScheme"
+                },
+                "transformation": {
+                  "language": "prefix",
+                  "expression": "skos"
+                }
+              }
+            ],
+            "propertyMappings": [
+              {
+                "property": {
+                  "valueSource": {
+                    "source": "constant",
+                    "constant": "prefLabel"
+                  },
+                  "transformation": {
+                    "language": "prefix",
+                    "expression": "skos"
+                  }
+                },
+                "values": [
+                  {
+                    "valueSource": {
+                      "source": "constant",
+                      "constant": "PACT Legal Form"
+                    },
+                    "valueType": {
+                      "type": "literal"
                     }
                   }
                 ]
