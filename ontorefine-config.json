@@ -273,7 +273,7 @@
                             {
                               "valueSource": {
                                 "source": "constant",
-                                "constant": "scheme"
+                                "constant": "Scheme"
                               },
                               "transformation": {
                                 "language": "prefix",
@@ -544,7 +544,7 @@
             "subject": {
               "valueSource": {
                 "source": "constant",
-                "constant": "scheme"
+                "constant": "Scheme"
               },
               "transformation": {
                 "language": "prefix",
